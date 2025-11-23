@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head <link rel="stylesheet" href="style.css" />
+...
+<script src="script.js"></script>>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CS & IT Scholarships in India</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Curated scholarships for Computer Science, Information Technology, and Engineering students in India." />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1>CS & IT Scholarships in India</h1>
+      <p>Curated opportunities for Computer Science, IT, and engineering students. Updated for current cycles.</p>
+      <div class="actions">
+        <a class="btn primary" href="#corporate">Explore Corporate</a>
+        <a class="btn" href="#government">Explore Government</a>
+        <a class="btn" href="#portals">Browse Portals</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Search & Filters -->
+    <section class="filters" aria-label="Search and filters">
+      <div class="filter-row">
+        <div class="filter-group">
+          <label for="search">Search scholarships</label>
+          <input type="search" id="search" placeholder="e.g., Amazon, AICTE, Google, STEM, girls, CS" />
+        </div>
+        <div class="filter-group">
+          <label for="category">Category</label>
+          <select id="category">
+            <option value="all">All</option>
+            <option value="corporate">Corporate</option>
+            <option value="government">Government</option>
+            <option value="portal">Portal</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="focus">Focus</label>
+          <select id="focus">
+            <option value="all">All</option>
+            <option value="cs-it">CS/IT</option>
+            <option value="stem">STEM</option>
+            <option value="girls">Girls</option>
+            <option value="minority">Minorities</option>
+            <option value="disability">Specially-abled</option>
+            <option value="orphaned">Orphaned/COVID-affected/Wards</option>
+          </select>
+        </div>
+        <button id="resetFilters" class="btn">Reset</button>
+      </div>
+      <p class="filter-tip">Tip: Use search for quick keywords and filters to narrow down by focus.</p>
+    </section>
+
+    <!-- Corporate Scholarships -->
+    <section id="corporate" class="section">
+      <h2>IT and CS-specific corporate scholarships</h2>
+      <div id="cards-corporate" class="card-grid">
+        <!-- Amazon Future Engineer -->
+        <article class="card" data-category="corporate" data-focus="cs-it girls">
+          <div class="card-header">
+            <h3>Amazon Future Engineer (AFE-FFE Scholarship)</h3>
+            <span class="tag">Corporate</span>
+          </div>
+          <p><strong>Focus:</strong> Academically gifted, financially needy students (priority for girls) pursuing CS, IT, or related engineering fields.</p>
+          <p><strong>Award:</strong> ₹50,000 per year, laptop, technical training, mentorship, and potential internship opportunity at Amazon.</p>
+          <div class="links">
+            <a class="link" href="https://ffe.org/amazon-future-engineer/" target="_blank" rel="noopener">FFE Website</a>
+            <a class="link" href="https://www.amazonfutureengineer.in/Scholarship%20and%20Internship-%202025" target="_blank" rel="noopener">Amazon Future Engineer</a>
+          </div>
+        </article>
+
+        <!-- Infosys Foundation STEM Stars -->
+        <article class="card" data-category="corporate" data-focus="stem cs-it">
+          <div class="card-header">
+            <h3>Infosys Foundation STEM Stars Scholarship</h3>
+            <span class="tag">Corporate</span>
+          </div>
+          <p><strong>Focus:</strong> Scholarship for students pursuing STEM fields, including CS and IT.</p>
+          <p><strong>Award:</strong> Up to ₹1,00,000 per annum.</p>
+          <div class="links">
+            <a class="link" href="https://www.buddy4study.com/" target="_blank" rel="noopener">Buddy4Study Portal</a>
+          </div>
+        </article>
+
+        <!-- Google Scholarships -->
+        <article class="card" data-category="corporate" data-focus="cs-it stem">
+          <div class="card-header">
+            <h3>Google Scholarships</h3>
+            <span class="tag">Corporate</span>
+          </div>
+          <p><strong>Focus:</strong> Supports diverse students globally; includes Generation Google Scholarship and the Venkat Panchapakesan Memorial Scholarship for CS students in India.</p>
+          <p><strong>Award:</strong> Varies by program.</p>
+          <div class="links">
+            <a class="link" href="https://edu.google.co.in/cs/participate/scholarships.html" target="_blank" rel="noopener">Google CS Education</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Government & General -->
+    <section id="government" class="section">
+      <h2>Government and general engineering scholarships</h2>
+      <div id="cards-government" class="card-grid">
+        <!-- AICTE Pragati -->
+        <article class="card" data-category="government" data-focus="girls">
+          <div class="card-header">
+            <h3>AICTE Pragati Scholarship for Girls</h3>
+            <span class="tag">Government</span>
+          </div>
+          <p><strong>Focus:</strong> For female students pursuing technical degree courses.</p>
+          <p><strong>Award:</strong> Tuition support (as per scheme guidelines).</p>
+          <div class="links">
+            <a class="link" href="https://www.aicte-india.org/" target="_blank" rel="noopener">AICTE Website</a>
+            <a class="link" href="https://scholarships.gov.in/" target="_blank" rel="noopener">National Scholarship Portal (NSP)</a>
+          </div>
+        </article>
+
+        <!-- AICTE Saksham -->
+        <article class="card" data-category="government" data-focus="disability">
+          <div class="card-header">
+            <h3>AICTE Saksham Scholarship Scheme</h3>
+            <span class="tag">Government</span>
+          </div>
+          <p><strong>Focus:</strong> For specially-abled students pursuing technical degree courses.</p>
+          <p><strong>Award:</strong> Tuition support (as per scheme guidelines).</p>
+          <div class="links">
+            <a class="link" href="https://www.aicte-india.org/" target="_blank" rel="noopener">AICTE Website</a>
+            <a class="link" href="https://scholarships.gov.in/" target="_blank" rel="noopener">National Scholarship Portal (NSP)</a>
+          </div>
+        </article>
+
+        <!-- AICTE Swanath -->
+        <article class="card" data-category="government" data-focus="orphaned">
+          <div class="card-header">
+            <h3>AICTE Swanath Scholarship Scheme</h3>
+            <span class="tag">Government</span>
+          </div>
+          <p><strong>Focus:</strong> For orphaned students, students who lost either parent due to COVID-19, and wards of Armed Forces/Central Paramilitary Forces personnel who died in the line of duty.</p>
+          <p><strong>Award:</strong> Tuition support (as per scheme guidelines).</p>
+          <div class="links">
+            <a class="link" href="https://www.aicte-india.org/" target="_blank" rel="noopener">AICTE Website</a>
+            <a class="link" href="https://scholarships.gov.in/" target="_blank" rel="noopener">National Scholarship Portal (NSP)</a>
+          </div>
+        </article>
+
+        <!-- Merit Cum Means for Minorities -->
+        <article class="card" data-category="government" data-focus="minority">
+          <div class="card-header">
+            <h3>Merit Cum Means Scholarship for Professional and Technical Courses (Minorities)</h3>
+            <span class="tag">Government</span>
+          </div>
+          <p><strong>Focus:</strong> For students from minority communities pursuing technical or professional UG/PG courses, including engineering.</p>
+          <p><strong>Award:</strong> Tuition support (as per scheme guidelines).</p>
+          <div class="links">
+            <a class="link" href="https://scholarships.gov.in/" target="_blank" rel="noopener">National Scholarship Portal (NSP)</a>
+          </div>
+        </article>
+
+        <!-- Reliance Foundation -->
+        <article class="card" data-category="government" data-focus="cs-it stem">
+          <div class="card-header">
+            <h3>Reliance Foundation Scholarships (Undergraduate & Postgraduate)</h3>
+            <span class="tag">Merit-cum-means</span>
+          </div>
+          <p><strong>Focus:</strong> Merit-cum-means based; notable focus on CS, AI, Mathematics & Computing, and other Engineering branches (especially at PG level).</p>
+          <p><strong>Award:</strong> UG up to ₹2,00,000; PG up to ₹6,00,000 (approx.).</p>
+          <div class="links">
+            <a class="link" href="https://www.scholarships.reliancefoundation.org/UG_Scholarship.aspx" target="_blank" rel="noopener">Reliance Foundation Scholarships</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Portals -->
+    <section id="portals" class="section">
+      <h2>Scholarship portals and aggregators</h2>
+      <div id="cards-portals" class="card-grid">
+        <article class="card" data-category="portal" data-focus="cs-it stem">
+          <div class="card-header">
+            <h3>Vidyasaarathi</h3>
+            <span class="tag">Portal</span>
+          </div>
+          <p><strong>About:</strong> Technology-enabled platform connecting students with corporates offering scholarships.</p>
+          <div class="links">
+            <a class="link" href="https://www.vidyasaarathi.co.in/" target="_blank" rel="noopener">Visit Vidyasaarathi</a>
+          </div>
+        </article>
+
+        <article class="card" data-category="portal" data-focus="stem">
+          <div class="card-header">
+            <h3>India Science, Technology & Innovation (ISTI) Portal</h3>
+            <span class="tag">Portal</span>
+          </div>
+          <p><strong>About:</strong> Listings of fellowships, scholarships, and awards from Government ministries and departments in science and technology.</p>
+          <div class="links">
+            <a class="link" href="https://www.indiascienceandtechnology.gov.in/fellowships-scholarships" target="_blank" rel="noopener">Visit ISTI Portal</a>
+          </div>
+        </article>
+
+        <article class="card" data-category="portal" data-focus="cs-it stem girls minority disability orphaned">
+          <div class="card-header">
+            <h3>Buddy4Study</h3>
+            <span class="tag">Portal</span>
+          </div>
+          <p><strong>About:</strong> Popular aggregator for corporate and government scholarships including Infosys, Google, AICTE schemes.</p>
+          <div class="links">
+            <a class="link" href="https://www.buddy4study.com/" target="_blank" rel="noopener">Visit Buddy4Study</a>
+          </div>
+        </article>
+
+        <article class="card" data-category="portal" data-focus="cs-it stem girls minority disability orphaned">
+          <div class="card-header">
+            <h3>National Scholarship Portal (NSP)</h3>
+            <span class="tag">Portal</span>
+          </div>
+          <p><strong>About:</strong> Centralized government platform for AICTE and other national/state schemes.</p>
+          <div class="links">
+            <a class="link" href="https://scholarships.gov.in/" target="_blank" rel="noopener">Visit NSP</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Key Recommendations -->
+    <section class="section">
+      <h2>Key recommendations to improve your chances</h2>
+      <ul class="list">
+        <li><strong>Track deadlines closely:</strong> Most scholarships open once a year with strict cutoffs.</li>
+        <li><strong>Prepare documents early:</strong>
+          Income certificate, caste/minority certificate (if applicable), Class 12 marksheet, entrance exam rank, disability certificate (for Saksham), etc.</li>
+        <li><strong>Diversify applications:</strong> Apply to both corporate and government scholarships to maximize chances.</li>
+        <li><strong>Check portals weekly:</strong> Buddy4Study, Vidyasaarathi, and NSP update frequently.</li>
+      </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>Made for CS & IT students in India. Links go to official sources or reputable portals.</p>
+        <p class="small">Disclaimer: Awards and eligibility may change. Always verify details on the official website before applying.</p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
